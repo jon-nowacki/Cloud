@@ -72,5 +72,6 @@ which should get: `-r--------``
 Then log in with:
 
 ```
- ssh -v -i <private_key>.pem <user>@<ip>
+ ssh -v -i <private_key>.pem ec2-user@<ip>
 ````
+DO NOT use your username, you must use ec2-user.
