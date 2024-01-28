@@ -68,3 +68,9 @@ Purpose:
 ```
 
 which should get: `-r--------``
+
+Then log in with:
+
+```
+ ssh -v -i <key>.pem <user>@<ip>
+````
