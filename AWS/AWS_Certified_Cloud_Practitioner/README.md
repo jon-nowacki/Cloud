@@ -72,5 +72,5 @@ which should get: `-r--------``
 Then log in with:
 
 ```
- ssh -v -i <key>.pem <user>@<ip>
+ ssh -v -i <private_key>.pem <user>@<ip>
 ````
