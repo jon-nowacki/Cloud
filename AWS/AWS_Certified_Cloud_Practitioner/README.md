@@ -69,9 +69,21 @@ Purpose:
 
 which should get: `-r--------``
 
-Then log in with:
+
+Commands
+aws --version
+aws iam list-users
+
 
 ```
  ssh -v -i <private_key>.pem ec2-user@<ip>
 ````
 DO NOT use your username, you must use ec2-user.
+
+
+# Security risk
+
+`aws configure` via command line
+And so as a rule of thumb, never, ever, ever enter your IAM APA key. So the Access Key ID and the Secret Access key into an EC2 Instance. This is horrible and if you see someone doing it,
+
+use IAM
