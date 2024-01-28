@@ -56,7 +56,7 @@ Inbound rules must be
 |------------|------|----------|------|------------|-------------|
 | IPv4       | SSH  | TCP      | 22   | 0.0.0.0/0  |     ssh     |
 | IPv4       | HTTP | TCP      | 80   | 0.0.0.0/0  | web browser |
-
+| IPv6       | SSH | TCP      | 22   | /0  | web browser |
 
 Purpose:
 * Timeout: Caused by security group rules
