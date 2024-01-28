@@ -1,12 +1,8 @@
 Just my notes as I prepare for the proctored AWS Certified Cloud practicioner.
 
 EC2 -> Instances -> Launch Instance
-Fill out 
-* Name
-* Base image
-* architecture 64 bit x86
-* t2.micro
-* 
+Fill out the following:
+
 | IP Version | Type | NOTES | 
 |------------|------|----------|
 | Name       | SSH  | TCP      | 
