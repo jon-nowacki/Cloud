@@ -1,6 +1,24 @@
 Just my notes as I prepare for the proctored AWS Certified Cloud practicioner.
 
-
+EC2 -> Instances -> Launch Instance
+Fill out 
+* Name
+* Base image
+* architecture 64 bit x86
+* t2.micro
+* 
+| IP Version | Type | NOTES | 
+|------------|------|----------|
+| Name       | SSH  | TCP      | 
+| Base image      | HTTP | |
+| OS      | Amazon Linux | |
+| architecture      | 64 bit x86 | |
+| instance type      | t2.micro | |
+| key pair name     | my_key | |
+| key pair type     | RSA | |
+| Private Key formate     | *. pem | ppk for win7 or 8, pem for everything else|
+| Security Group     | Allow SSH from Anywhere 0.0.0.0/0 | |
+| Security Group     | Allow HTTP from internet | |
 ### 
 Go to Advanced Details add this to User Data:
 
