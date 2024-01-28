@@ -19,6 +19,13 @@ Fill out
 | Private Key formate     | *. pem | ppk for win7 or 8, pem for everything else|
 | Security Group     | Allow SSH from Anywhere 0.0.0.0/0 | |
 | Security Group     | Allow HTTP from internet | |
+| Configure storage     | 8gb gp3 | |
+| User data - optional     | enter code below | |
+
+
+EBS storage is where you can configure delete upon termination
+
+
 ### 
 Go to Advanced Details add this to User Data:
 
@@ -32,8 +39,14 @@ systemctl start httpd
 systemctl enable httpd
 echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 ```
+go to:
 
+Public IPv4 address
+ xxx.xxx.xxx.xxx |open address 
 
+And open the link.  Make sure it's http://xxx.xxx.xxx.xxx
+
+Note, it has to be http and not https!
 
 
 38. Security Groups Hands on
